@@ -51,10 +51,11 @@ body{
     background-color: black;
     text-align: center;
 }
-.modal-header{
+.modal-header>h5{
     color: black;
-    text-align: center;
+    padding-left: 200px;
 }
 .modal-body{
-    color: black;
+    color: green;
+
 }
