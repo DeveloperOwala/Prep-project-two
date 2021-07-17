@@ -53,6 +53,7 @@ body{
 }
 .modal-header{
     color: black;
+    text-align: center;
 }
 .modal-body{
     color: black;
