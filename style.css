@@ -51,3 +51,9 @@ body{
     background-color: black;
     text-align: center;
 }
+.modal-header{
+    color: black;
+}
+.modal-body{
+    color: black;
+}
