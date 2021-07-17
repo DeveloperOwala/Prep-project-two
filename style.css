@@ -3,18 +3,32 @@ body{
     height: 500px;
   
 }
+.jumbotron{
+    background-color:gray;
+}
 .jumbotron>h1{
-  color: brown;
+  color: skyblue;
   text-align: center;
+  
+}
+.jumbotron>p{
+  color: aliceblue;
+  padding: 10px;
 }
 .card-body{
-    background-color:palevioletred;   
-    
+    background-color:palevioletred;  
+    color: aliceblue;   
+}
+.card-title{
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
 }
 .card-footer{
-    background-color:palevioletred;   
+    background-color:palevioletred;
+    color: yellow;   
 
 }
 .card-heading{
-    color:brown;
+    color:yellowgreen;
 }
