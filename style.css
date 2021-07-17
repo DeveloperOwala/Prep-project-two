@@ -1,7 +1,11 @@
 body{
     background-image: url('/images/cultureImage.jpg');
     background-repeat: no-repeat;
-  
+    background-attachment: fixed;  
+    background-size: cover; 
+}
+.container{
+    padding-top: 80px;
 }
 .jumbotron{
     background-color:gray;
