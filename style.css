@@ -32,3 +32,18 @@ body{
 .card-heading{
     color:yellowgreen;
 }
+.card{
+  background-color: gray; 
+  height: 300px; 
+   
+}
+.card>form{
+    text-align: center;
+    color: cornsilk;
+    font-size: larger;
+}
+.DOB{
+    color: greenyellow;
+    background-color: black;
+    text-align: center;
+}
