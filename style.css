@@ -1,5 +1,20 @@
-.container{
+body{
     background-image: url('/images/cultureImage.jpg');
-    background-repeat: no-repeat;
-    height: 1000px;
+    height: 500px;
+  
+}
+.jumbotron>h1{
+  color: brown;
+  text-align: center;
+}
+.card-body{
+    background-color:palevioletred;   
+    
+}
+.card-footer{
+    background-color:palevioletred;   
+
+}
+.card-heading{
+    color:brown;
 }
