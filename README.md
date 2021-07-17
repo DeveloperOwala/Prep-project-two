@@ -7,10 +7,10 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 ## Setup/Installation Requirements
 * Download an .exe file.
 * Locate and double-click the .exe file. (It will usually be in your Downloads folder.)
-* Extract the exe file locally in the machine
-* Open the extracted exe file
-* Click install file
-* Once installed, application will automatically run
+* Extract the exe file locally in the machine.
+* Open the extracted exe file.
+* Click install file.
+* Once installed, open application with code editor i.e ATOM, VS CODE etc.
 ## link to live site on GitHub Pages
 {https://developerowala.github.io/Prep-project-two/}
 ## Known Bugs
