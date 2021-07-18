@@ -41,8 +41,12 @@ function identifyGender() {
     }
 }
 
-function akanNames() {
+function akanNames(){
     var maleNaming = ["Kwasi", "Kwadwo", "Twabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleNaming = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var akanDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    if(identifyGender()){
+
+    }
 }
