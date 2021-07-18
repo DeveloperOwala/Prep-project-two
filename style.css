@@ -59,3 +59,6 @@ body{
     color: green;
 
 }
+.card>label{
+    width: 20px;
+}

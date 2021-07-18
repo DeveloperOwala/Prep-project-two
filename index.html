@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Naming Project</title>
+
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -69,21 +71,26 @@
         <br>
         <div class="row">
             <div class="card">
-                <form>
+                <form id="form" action="" method="" onsubmit="return validate()">
                     <fieldset>
                         <legend class="DOB">FORM FOR CALCULATING DAY OF BIRTH</legend>
-                        <br><label> ENTER DATE OF BIRTH : </label>
-                        <input type="date"> <br>
+                        <br><label> ENTER DATE : </label>
+                        <input id="date" name="date" type="text"> <br>
+                        <br><label> ENTER MONTH : </label>
+                        <input id="month" name="month" type="text"> <br>
+                        <br><label> ENTER YEAR : </label>
+                        <input id="year" name="year" type="text"> <br>
                         <br><label>CHOOSE YOUR GENDER : </label>
                         <input type="radio" id="gender" name="gender" value="male" /> MALE
                         <input type="radio" id="gender" name="gender" value="female" /> FEMALE<br />
+                        <input type="submit" value = "Submit">
                         <!-- Button trigger modal -->
-                        <br><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        <!-- <br><button type="button" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             SUBMIT
-                        </button>
+                        </button> -->
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -101,7 +108,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <script src="Javascript.js"></script>
                         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
                             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -111,6 +118,7 @@
             </div>
         </div>
     </div>
+  
 </body>
 
 </html>
