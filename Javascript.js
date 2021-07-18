@@ -10,8 +10,8 @@
 //     }
 function validateUser() {
     var date = document.getElementById("date").value;
-    var month = document.getElementById("month").value;
     var year = document.getElementById("year").value;
+    var month = document.getElementById("month").value;
 
     if (date == "" || month == "" || year == "") {
         return false;
@@ -26,7 +26,7 @@ function validateUser() {
 
 function identifyGender() {
 
-    var genderForm = document.getElementByName("gender");
+    var genderForm = document.getElementsByName("gender");
     var male = document.getElementById("male");
     var female = document.getElementById("female");
 
@@ -41,12 +41,16 @@ function identifyGender() {
     }
 }
 
-function akanNames(){
+function akanNames() {
     var maleNaming = ["Kwasi", "Kwadwo", "Twabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleNaming = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var akanDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    if(identifyGender()){
-
+    if (identifyGender() === "male") {
+        alert("My Akan : " + maleNaming[validateUser()]);
+    } else if (identifyGender() == "female") {
+        alert("My Akan : " + femaleNaming[validateUser()]);
+    }else{
+        alert("Please select gender! ");
     }
-}
+} 
