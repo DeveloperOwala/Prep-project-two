@@ -1,13 +1,4 @@
-// var maleNaming = ["Kwasi", "Kwadwo", "Twabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-// var femaleNaming = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-// var akanDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-//     function validate(){
-//         var date = document.getElementById("date");
-//         var month= document.getElementById("month");
-//         var year = document.getElementById("year");
-//         var gender=document.getElementById("genda");
 
-//     }
 function validateUser() {
     var date = document.getElementById("date").value;
     var year = document.getElementById("year").value;
@@ -29,8 +20,8 @@ function identifyGender() {
     var genderForm = document.getElementsByName("gender");
     var male = document.getElementById("male");
     var female = document.getElementById("female");
-    
-    
+
+
     //  if(genderForm[0].value.checked){
     //     // genderForm = male.value;
     //     // return genderForm;
@@ -42,7 +33,7 @@ function identifyGender() {
     //  }else{
     //     alert("Please check gender! ");
     // }
-    
+
     // if (genderForm[0].checked || genderForm[1].checked) {
     //     return true;
     // } else if (document.getElementById("male").checked) {
@@ -65,10 +56,10 @@ function cultureName() {
         alert("My Akan : " + maleNaming[validateUser()]);
     } else if (identifyGender() === "female") {
         alert("My Akan : " + femaleNaming[validateUser()]);
-    }else{
+    } else {
         alert("Please fill in the details! ");
     }
-} 
+}
 // if(identifyGender()==="male"){
 //     document.querySelector(".display").innerHTML="Your Akan name is "+maleNaming[validateUser()];
 //     document.querySelector(".text").innerHTML="Born on "+akanDays[validateUser()];
