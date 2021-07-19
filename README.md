@@ -12,7 +12,7 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 * Click install file.
 * Once installed, application will automatically run in the browser.
 ## link to live site on GitHub Pages
-{https://developerowala.github.io/Prep-project-two/}
+{<a href="https://developerowala.github.io/Prep-project-two/"> Click here</a>}
 ## Known Bugs
 {This application is responsive to different device screen sizes though developers are encouraged to improve the display of this web page to devices that are not responding to this particular application}
 ## Technologies Used
