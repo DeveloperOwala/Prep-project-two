@@ -29,28 +29,51 @@ function identifyGender() {
     var genderForm = document.getElementsByName("gender");
     var male = document.getElementById("male");
     var female = document.getElementById("female");
-
-    if (!(genderForm[0].checked || genderForm[1].checked)) {
-        return false;
-    } else if (male.checked) {
-        genderForm = male.value;
-        return genderForm;
-    } else if (female.checked) {
-        genderForm = female.value;
-        return genderForm;
-    }
+    
+    
+    //  if(genderForm[0].value.checked){
+    //     // genderForm = male.value;
+    //     // return genderForm;
+    //     alert("male! ");
+    //  } else if(genderForm[1].value.checked){
+    //     // genderForm = female.value;
+    //     // return genderForm;
+    //     alert("female! ");
+    //  }else{
+    //     alert("Please check gender! ");
+    // }
+    
+    // if (genderForm[0].checked || genderForm[1].checked) {
+    //     return true;
+    // } else if (document.getElementById("male").checked) {
+    //     genderForm = male.value;
+    //     return genderForm;
+    // } else if (document.getElementById("female").checked) {
+    //     genderForm = female.value;
+    //     return genderForm;
+    // }else{
+    //     // alert("Please check gender! ");
+    // }
 }
 
-function akanNames() {
+function cultureName() {
     var maleNaming = ["Kwasi", "Kwadwo", "Twabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleNaming = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var akanDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     if (identifyGender() === "male") {
         alert("My Akan : " + maleNaming[validateUser()]);
-    } else if (identifyGender() == "female") {
+    } else if (identifyGender() === "female") {
         alert("My Akan : " + femaleNaming[validateUser()]);
     }else{
-        alert("Please select gender! ");
+        alert("Please fill in the details! ");
     }
 } 
+// if(identifyGender()==="male"){
+//     document.querySelector(".display").innerHTML="Your Akan name is "+maleNaming[validateUser()];
+//     document.querySelector(".text").innerHTML="Born on "+akanDays[validateUser()];
+// }else if(identifyGender()==="female"){
+//     document.querySelector(".display").innerHTML="Your Akan name is "+femaleNaming[validateUser()];
+//     document.querySelector(".text").innerHTML="Born on "+akanDays[validateUser()];
+// }
+// }
